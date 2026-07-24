@@ -1,0 +1,7 @@
+host: "10.244.1.53"
+critical_ports: [21, 23, 445, 3389]
+icmp:
+  max_payload: 100
+  threshold: 10
+  time_window: 5
+log_file: "net_traffic.log"
